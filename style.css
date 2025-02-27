@@ -3,3 +3,51 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center the header */
+header h1 {
+  text-align: center;
+}
+
+/* Center the navigation links and add padding and background color */
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Center the image */
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Center the image caption and reduce font size */
+figcaption {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Center text in featured property section and constrain width */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make details section horizontal */
+#details {
+  display: flex;
+  justify-content: space-around;
+}
+
+#details div {
+  width: 25%;
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+  box-sizing: border-box;
+}
